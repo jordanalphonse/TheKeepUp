@@ -1,0 +1,130 @@
+body {
+    margin: 0; 
+    background: #222;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500px;
+}
+
+body h2 {
+    margin: 20px;
+}
+
+.headlineLakers h2 {
+    color: purple;
+    margin: 20px;
+   
+}
+
+.headlineLakers h2:hover {
+    color: gold;;
+}
+
+.headlineLiverpool h2 {
+    color: #D00027;
+    margin: 20px;
+   
+}
+
+.headlineLiverpool h2:hover {
+    color: #00A398;
+}
+.headlineSeahawks h2 {
+    color: #66C010;
+    margin: 20px;
+   
+}
+
+.headlineSeahawks h2:hover {
+    color: #A5ACAF;
+}
+
+
+.container {
+ width: 80%;
+ margin: 0 auto;
+}
+
+.homepage {
+display: block;
+list-style: none;
+margin-left: 5px;
+padding: 5px;
+
+
+}
+
+header {
+    background: #0e665d;
+    margin-top: 0;
+    margin-bottom: 30px;
+
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    position: absolute;
+    padding: 20px 0;
+    
+}
+
+nav {
+    float: right;
+    position: relative;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 20px;
+
+    position: relative;
+}
+
+nav a {
+    color: #222;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: white;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 150ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.linkImg {
+    margin: 20px;
+}
+
+.linkImg:hover {
+    opacity: 50%;
+
+}
+
